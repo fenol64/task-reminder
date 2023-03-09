@@ -1,0 +1,11 @@
+{
+  "name": "select-executer",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon assets/icon.png --out dist"
+  },
+  "devDependencies": {
+    "electron": "^23.1.2"
+  }
+}
